@@ -1,26 +1,10 @@
-h1 {
-    color: purple;
-}
-
-h2 {
-    color: brown;
-}
-
-/* "#" é para selecionar "id" e id só pode ter um na pagina */
-#games h2 {
-    color: limegreen;
-}
-
-/* "." é para selecionar "class" e class pode ter em varios lugares */
-.creation-date {
-    color: gray;
-}
-
-.game-cover {
-    color: #ccc;
-}
-
 /* "*" vai selecionar tudo que não foi definido */
 * {
-    color: rgb(255, 217, 0);
+/* Reset para tirar todas espeçificações padrões do navegador */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+
+
