@@ -30,7 +30,6 @@ header li a {
 }
 
 .container {
-/* Centralizando o cabeçario "header" */
     width: 1366px;
     margin: 0 auto ;
 }
@@ -44,7 +43,6 @@ header li a {
 .article article img{
     height: 260px; 
     width: 100%;
-    display: none;
 }
 
 .article article {
@@ -106,4 +104,14 @@ section h2 {
 
 #games .article article a {
     background-color: rgba(0, 0, 0, 0.923);
-} 
+}
+
+#musica {
+    background-color: black;
+    color: red;
+}
+
+#musica .article article a {
+    background-color: red;
+    color: black;
+}
